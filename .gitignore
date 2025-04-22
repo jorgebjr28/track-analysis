@@ -7,6 +7,4 @@ __pycache__/
 env/
 .env
 .vscode/
-data/**/*.csv
-data/**/*.hy3
 !data/**/archive/

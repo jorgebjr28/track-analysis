@@ -1,1 +1,5 @@
 I'm gonna need to start fresh with a new history, but just for background I have this proposal for a datascience projecrt [] and I was talking to it about how in the past I was trying to use the code base in the "Old" folder which involved parsing the csv files. but then I found this repo [] that is supposed to be able to parse .hy3 files from the same Hytek Meet Manager 6.0 that I got the csv files from. I now want to go this route but whenever I try to run it with either of the .hy3 files I get these errors [][] which you told me meant something with dates. The solution that I decided to go with was to fork the repo and modify it to my needs. But first I wanted to put this codebase into a git repository which was the whole reason I moved it to a different folder.  I curretnly want help with how to make this into a git repo itself, and then I would also like to know how to fork the repo that I need, and then how I get it to work with this repo. Do I combine them or what? How does that work with the two repos?
+
+
+data/**/*.csv
+data/**/*.hy3

@@ -1,0 +1,105 @@
+id,number,name,type,gender,division
+R_103_400_F_1,103,400m Relay,R,F,1
+R_104_400_M_1,104,400m Relay,R,M,1
+109_100 Meters_U_1,109,100 Meters,T,U,1
+113_400 Meters_U_1,113,400 Meters,T,U,1
+128_Long Jump_U_1,128,Long Jump,F,U,1
+131_Shot Put_U_1,131,Shot Put,F,U,1
+201_3200 Meters_F_2,201,3200 Meters,T,F,2
+202_3200 Meters_M_2,202,3200 Meters,T,M,2
+R_203_400_F_2,203,400m Relay,R,F,2
+R_204_400_M_2,204,400m Relay,R,M,2
+205_800 Meters_F_2,205,800 Meters,T,F,2
+206_800 Meters_M_2,206,800 Meters,T,M,2
+207_100m Hurdles_F_2,207,100m Hurdles,T,F,2
+208_110m Hurdles_M_2,208,110m Hurdles,T,M,2
+209_100 Meters_F_2,209,100 Meters,T,F,2
+210_100 Meters_M_2,210,100 Meters,T,M,2
+R_211_800_F_2,211,800m Relay,R,F,2
+R_212_800_M_2,212,800m Relay,R,M,2
+213_400 Meters_F_2,213,400 Meters,T,F,2
+214_400 Meters_M_2,214,400 Meters,T,M,2
+215_300m Hurdles_F_2,215,300m Hurdles,T,F,2
+216_300m Hurdles_M_2,216,300m Hurdles,T,M,2
+217_200 Meters_F_2,217,200 Meters,T,F,2
+218_200 Meters_M_2,218,200 Meters,T,M,2
+219_1600 Meters_F_2,219,1600 Meters,T,F,2
+220_1600 Meters_M_2,220,1600 Meters,T,M,2
+R_221_1600_F_2,221,1600m Relay,R,F,2
+R_222_1600_M_2,222,1600m Relay,R,M,2
+223_Discus Throw_F_2,223,Discus Throw,F,F,2
+224_Discus Throw_M_2,224,Discus Throw,F,M,2
+225_High Jump_F_2,225,High Jump,F,F,2
+226_High Jump_M_2,226,High Jump,F,M,2
+227_Long Jump_F_2,227,Long Jump,F,F,2
+228_Long Jump_M_2,228,Long Jump,F,M,2
+231_Shot Put_F_2,231,Shot Put,F,F,2
+232_Shot Put_M_2,232,Shot Put,F,M,2
+233_TJ Meters_F_2,233,TJ Meters,F,F,2
+234_TJ Meters_M_2,234,TJ Meters,F,M,2
+301_3200 Meters_F_3,301,3200 Meters,T,F,3
+302_3200 Meters_M_3,302,3200 Meters,T,M,3
+R_303_400_F_3,303,400m Relay,R,F,3
+R_304_400_M_3,304,400m Relay,R,M,3
+305_800 Meters_F_3,305,800 Meters,T,F,3
+306_800 Meters_M_3,306,800 Meters,T,M,3
+307_100m Hurdles_F_3,307,100m Hurdles,T,F,3
+308_110m Hurdles_M_3,308,110m Hurdles,T,M,3
+309_100 Meters_F_3,309,100 Meters,T,F,3
+310_100 Meters_M_3,310,100 Meters,T,M,3
+R_311_800_F_3,311,800m Relay,R,F,3
+R_312_800_M_3,312,800m Relay,R,M,3
+313_400 Meters_F_3,313,400 Meters,T,F,3
+314_400 Meters_M_3,314,400 Meters,T,M,3
+315_300m Hurdles_F_3,315,300m Hurdles,T,F,3
+316_300m Hurdles_M_3,316,300m Hurdles,T,M,3
+317_200 Meters_F_3,317,200 Meters,T,F,3
+318_200 Meters_M_3,318,200 Meters,T,M,3
+319_1600 Meters_F_3,319,1600 Meters,T,F,3
+320_1600 Meters_M_3,320,1600 Meters,T,M,3
+R_321_1600_F_3,321,1600m Relay,R,F,3
+R_322_1600_M_3,322,1600m Relay,R,M,3
+323_Discus Throw_F_3,323,Discus Throw,F,F,3
+324_Discus Throw_M_3,324,Discus Throw,F,M,3
+325_High Jump_F_3,325,High Jump,F,F,3
+326_High Jump_M_3,326,High Jump,F,M,3
+327_Long Jump_F_3,327,Long Jump,F,F,3
+328_Long Jump_M_3,328,Long Jump,F,M,3
+331_Shot Put_F_3,331,Shot Put,F,F,3
+332_Shot Put_M_3,332,Shot Put,F,M,3
+333_TJ Meters_F_3,333,TJ Meters,F,F,3
+334_TJ Meters_M_3,334,TJ Meters,F,M,3
+401_3200 Meters_F_4,401,3200 Meters,T,F,4
+402_3200 Meters_M_4,402,3200 Meters,T,M,4
+R_403_400_F_4,403,400m Relay,R,F,4
+R_404_400_M_4,404,400m Relay,R,M,4
+405_800 Meters_F_4,405,800 Meters,T,F,4
+406_800 Meters_M_4,406,800 Meters,T,M,4
+407_100m Hurdles_F_4,407,100m Hurdles,T,F,4
+408_110m Hurdles_M_4,408,110m Hurdles,T,M,4
+409_100 Meters_F_4,409,100 Meters,T,F,4
+410_100 Meters_M_4,410,100 Meters,T,M,4
+R_411_800_F_4,411,800m Relay,R,F,4
+R_412_800_M_4,412,800m Relay,R,M,4
+413_400 Meters_F_4,413,400 Meters,T,F,4
+414_400 Meters_M_4,414,400 Meters,T,M,4
+415_300m Hurdles_F_4,415,300m Hurdles,T,F,4
+416_300m Hurdles_M_4,416,300m Hurdles,T,M,4
+417_200 Meters_F_4,417,200 Meters,T,F,4
+418_200 Meters_M_4,418,200 Meters,T,M,4
+419_1600 Meters_F_4,419,1600 Meters,T,F,4
+420_1600 Meters_M_4,420,1600 Meters,T,M,4
+R_421_1600_F_4,421,1600m Relay,R,F,4
+R_422_1600_M_4,422,1600m Relay,R,M,4
+423_Discus Throw_F_4,423,Discus Throw,F,F,4
+424_Discus Throw_M_4,424,Discus Throw,F,M,4
+425_High Jump_F_4,425,High Jump,F,F,4
+426_High Jump_M_4,426,High Jump,F,M,4
+427_Long Jump_F_4,427,Long Jump,F,F,4
+428_Long Jump_M_4,428,Long Jump,F,M,4
+429_PV Meters_F_4,429,PV Meters,F,F,4
+430_PV Meters_M_4,430,PV Meters,F,M,4
+431_Shot Put_F_4,431,Shot Put,F,F,4
+432_Shot Put_M_4,432,Shot Put,F,M,4
+433_TJ Meters_F_4,433,TJ Meters,F,F,4
+434_TJ Meters_M_4,434,TJ Meters,F,M,4
