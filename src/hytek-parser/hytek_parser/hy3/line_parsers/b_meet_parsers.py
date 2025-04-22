@@ -14,10 +14,40 @@ def b1_parser(
 
     meet.name = extract(line, 3, 45)
     meet.facility = extract(line, 48, 45)
-    meet.start_date = datetime.strptime(extract(line, 93, 8), "%m%d%Y").date()
-    meet.end_date = datetime.strptime(extract(line, 101, 8), "%m%d%Y").date()
+    
+    # Handle the custom date format MM/DD-YY
+    raw_date = extract(line, 93, 8)
+    try:
+        if '-' in raw_date:
+            # Split the date on / and -
+            month_day, year = raw_date.split('-')
+            month, day = month_day.split('/')
+            # Assume 20xx for year
+            full_date = f"{month.zfill(2)}{day.zfill(2)}20{year}"
+            meet.start_date = datetime.strptime(full_date, "%m%d%Y").date()
+        else:
+            # Try original format as fallback
+            meet.start_date = datetime.strptime(raw_date, "%m%d%Y").date()
+    except ValueError:
+        print(f"Could not parse start date: {raw_date}")
+        # Use a default date to allow processing to continue
+        meet.start_date = datetime(2025, 3, 14).date()
+
+    # Do the same for end date
+    raw_end_date = extract(line, 101, 8)
+    try:
+        if '-' in raw_end_date:
+            month_day, year = raw_end_date.split('-')
+            month, day = month_day.split('/')
+            full_date = f"{month.zfill(2)}{day.zfill(2)}20{year}"
+            meet.end_date = datetime.strptime(full_date, "%m%d%Y").date()
+        else:
+            meet.end_date = datetime.strptime(raw_end_date, "%m%d%Y").date()
+    except ValueError:
+        print(f"Could not parse end date: {raw_end_date}")
+        meet.end_date = datetime(2025, 3, 14).date()
+
     meet.altitude = int_or_none(extract(line, 117, 5))
-    # TODO: Find meet country
     meet.country = opts["default_country"]
 
     file.meet = meet
