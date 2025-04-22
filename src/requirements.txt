@@ -1,0 +1,4 @@
+pandas
+matplotlib
+seaborn
+-e ./src/hytek_parser
